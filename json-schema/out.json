@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 12
+        },
+        "description": {
+            "default": "no description provided",
+            "type": "string"
+        },
+        "a": {
+            "default": false,
+            "type": "boolean"
+        }
+    },
+    "additionalProperties": false,
+    "patterns": [],
+    "required": [
+        "name",
+        "a"
+    ]
+}
